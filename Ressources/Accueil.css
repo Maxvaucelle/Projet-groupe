@@ -1,4 +1,34 @@
 body {
-  width: 1600px;
-  margin: 0;
+ 
+  margin: 0%;
+}
+
+main{
+  margin: auto;
+  width: 50%;
+}
+
+.illustration{
+  width: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.bouton{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.twitter{
+  background-color: #1DA1F2;
+}
+
+.Linkedin{
+ background-color: #007BB5;
+}
+
+.medium{
+  background-color: black;
 }
