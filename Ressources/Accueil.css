@@ -1,4 +1,15 @@
-body {
-  width: 1600px;
-  margin: 0;
+.navbar {
+  display: flex;
+  align-items: center;
 }
+
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+
+.blog {
+  color: palevioletred;
+}
+
