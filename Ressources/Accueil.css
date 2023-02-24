@@ -8,6 +8,10 @@ main{
   width: 50%;
 }
 
+h1{
+  color: ;
+}
+
 .illustration{
   width: 20px;
   display: flex;
@@ -18,7 +22,7 @@ main{
 .bouton{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .twitter{
