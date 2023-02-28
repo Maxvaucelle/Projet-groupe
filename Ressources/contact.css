@@ -3,8 +3,6 @@ body {
   width: 60%;
 }
 
-
-
 h1 {
   color: #ba1d47;
   font-family: 'Abril Fatface';
@@ -26,7 +24,6 @@ h1 {
   padding-top: 10%;
 }
 
-
 .bouton {
   display: flex;
   justify-content: space-between;
@@ -43,18 +40,15 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
 .twitter {
   display: flex;
-  background-color: #1DA1F2;
+  background-color: #1da1f2;
   align-items: center;
 }
 
-
 .Linkedin {
   display: flex;
-  background-color: #007BB5;
+  background-color: #007bb5;
   align-items: center;
 }
 
@@ -63,7 +57,6 @@ h1 {
   background-color: black;
   align-items: center;
 }
-
 
 p {
   font-family: 'Montserrat', sans-serif;
@@ -77,14 +70,11 @@ h2 {
 
 h1 {
   font-size: 50px;
- 
 }
 
-.contact h1{
+.contact h1 {
   color: #ba1d47;
- 
 }
-
 
 .Linkedin img {
   width: 20px;
@@ -111,7 +101,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .menu {
@@ -126,20 +115,16 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
-
 .contact {
   text-align: center;
   padding-top: 20px;
-
 }
 
 .formulaire {
   margin: auto;
-
 }
 
 .formtxt {
-
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 10px;
   color: rgb(53, 51, 135);
@@ -153,9 +138,8 @@ input {
   margin-left: 40px;
   margin-bottom: 10px;
   border-radius: 5px;
-  border-color: #1DA1F2;
-background-color: #ccc;
-
+  border-color: #1da1f2;
+  background-color: #ccc;
 }
 
 textarea {
@@ -166,10 +150,9 @@ textarea {
   margin-left: 40px;
   margin-bottom: 10px;
   border-radius: 5px;
-  border-color: #1DA1F2;
+  border-color: #1da1f2;
   background-color: #ccc;
 }
-
 
 .envoyer a {
   margin-bottom: 50px;
@@ -183,12 +166,9 @@ textarea {
   padding-left: 20px;
   margin-bottom: 40px;
   border-radius: 5px;
-
 }
 
-
 .envoyer {
-
   display: flex;
   align-items: center;
   padding-top: 40px;
@@ -197,8 +177,6 @@ textarea {
 .formtxt {
   padding-right: 20%;
 }
-
-
 
 .ad {
   display: flex;
@@ -213,7 +191,6 @@ textarea {
   align-items: center;
 }
 
-
 .envoyer img {
   width: 20px;
 }
@@ -225,22 +202,22 @@ textarea {
 .contenutxt {
   display: flex;
   flex-direction: row;
-
 }
 
-legend{
+legend {
   text-align: center;
 }
 
-fieldset{
- padding-right: 70px;
- padding-left: 50px ;
+fieldset {
+  padding-right: 70px;
+  padding-left: 50px;
 
-border-color: #ba1d47;
-border-radius: 5px;
+  border-color: #ba1d47;
+  border-radius: 5px;
+}
 
-
-
+h1 {
+  font-family: abr;
 }
 
 .ad ::placeholder {
