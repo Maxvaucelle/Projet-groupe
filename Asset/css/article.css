@@ -1,0 +1,122 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  margin: auto;
+  width: 60%;
+}
+
+.paragraph p {
+  font-size: 20px;
+  color: grey;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(205, 90, 109);
+  font-size: 60px;
+}
+
+.navbar {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+  opacity: 60%;
+}
+
+.hypertext {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.illustration {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
+.author {
+  width: 100%;
+  display: flex;
+  gap: 100px;
+}
+.logomark {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.logomark a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  color: white;
+  margin-right: 20px;
+}
+
+.logomark a:hover {
+  text-decoration: underline;
+}
+
+.twitter {
+  background-color: rgb(38, 183, 240);
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin {
+  background-color: rgb(54, 105, 191);
+}
+
+.medium {
+  background-color: black;
+}
+
+.logomark img {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+}
+
+.image img {
+  height: 300px;
+}
+
+.auteur {
+  color: rgb(205, 90, 109);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.h2 {
+  color: rgb(30, 30, 169);
+  font-size: 30px;
+}
+
+.aproposauthor p {
+  font-size: 20px;
+}
+
+.aproposauthor {
+  width: 70%;
+}
+
+.parag p {
+  color: rgb(99, 99, 99);
+}

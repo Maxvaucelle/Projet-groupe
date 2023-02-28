@@ -1,0 +1,159 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  margin: auto;
+  width: 55%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hypertexte {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 300px;
+}
+
+.texteImage {
+  display: flex;
+  width: 100%;
+}
+
+.titreImage {
+  width: 55%;
+}
+
+.titreImage .logo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.image1 {
+  display: flex;
+
+  height: 300px;
+  margin-left: 150px;
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15%;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+  padding-right: 30px;
+  font-size: x-small;
+}
+
+.logo a:hover {
+  text-decoration: underline;
+}
+
+#logoTwitter {
+  margin-right: 15px;
+  background-color: rgb(38, 183, 240);
+}
+
+#logoLinkedin {
+  margin-right: 15px;
+  background-color: rgb(54, 105, 191);
+}
+
+.hypertexte a:hover {
+  color: purple;
+}
+
+.hypertexte a {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+  opacity: 60%;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: xx-large;
+  font-weight: 100;
+  color: rgb(205, 90, 109);
+}
+
+h2 {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+#logoMedium {
+  background-color: black;
+}
+
+.logo img {
+  display: flex;
+  height: 25px;
+}
+
+.boitephoto {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+  font-size: small;
+}
+
+.boitephoto a {
+  font-size: 16px;
+}
+
+.boitephoto img {
+  height: 300px;
+}
+
+.photo1 p {
+  width: 400px;
+}
+
+.photo2 p {
+  width: 400px;
+}
+
+h3 {
+  color: rgb(205, 90, 109);
+}
+
+.boitephoto a {
+  color: rgb(205, 90, 109);
+}
+
+.boitephoto img {
+  box-shadow: 0px 0px 7px 5px rgba(99, 99, 99, 0.49);
+  -webkit-box-shadow: 0px 0px 7px 5px rgba(99, 99, 99, 0.49);
+  -moz-box-shadow: 0px 0px 7px 5px rgba(99, 99, 99, 0.49);
+}
+
+.p2 {
+  font-size: small;
+  color: grey;
+}
+
+.p1 {
+  color: rgb(99, 99, 99);
+}
+
+.date {
+  font-size: smaller;
+  font-weight: 700;
+}
