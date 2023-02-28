@@ -1,45 +1,41 @@
-body{
+body {
   margin: auto;
   width: 60%;
 }
 
-h1{
-  color:#ba1d47 ;
+
+
+h1 {
+  color: #ba1d47;
   font-family: 'Abril Fatface';
   width: 90%;
- 
 }
 
-.dessin img{
-
-height: 400px;
-  
-  
+.dessin img {
+  height: 400px;
 }
 
-.texte{
+.texte {
   width: 70%;
 }
 
-.reseaux{
+.reseaux {
   display: flex;
   gap: 80px;
-  padding-bottom: 40px ;
-  padding-top: 0%;
- 
+  padding-bottom: 40px;
+  padding-top: 10%;
 }
 
 
-.bouton{
+.bouton {
   display: flex;
-justify-content: space-between;
-align-items: center;
-gap:5px;
-padding-top: 20px;
-
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  padding-top: 20px;
 }
 
-.bouton a{
+.bouton a {
   padding: 10px;
   margin: 10px;
   text-decoration: none;
@@ -49,72 +45,72 @@ padding-top: 20px;
 
 
 
-.twitter{
+.twitter {
   display: flex;
   background-color: #1DA1F2;
- align-items: center;
- 
- 
+  align-items: center;
 }
 
-.Linkedin{
+
+.Linkedin {
   display: flex;
- background-color: #007BB5;
-
- align-items: center;
- 
+  background-color: #007BB5;
+  align-items: center;
 }
 
-.medium{
+.medium {
   display: flex;
   background-color: black;
   align-items: center;
-  
- 
-  
 }
 
 
-p{
+p {
   font-family: 'Montserrat', sans-serif;
- 
 }
 
-h2{
+h2 {
   font-family: 'Montserrat', sans-serif;
- 
+
   font-size: 40px;
 }
 
-h1{
- font-size: 50px;
+h1 {
+  font-size: 50px;
+ 
+}
+
+.contact h1{
+  color: #ba1d47;
+ 
 }
 
 
-.Linkedin img{
+.Linkedin img {
   width: 20px;
   height: 20px;
   margin-left: 20px;
   margin-bottom: 5px;
 }
 
-.twitter img{
+.twitter img {
   width: 20px;
   height: 20px;
   margin-left: 20px;
   margin-bottom: 5px;
 }
 
-.medium img{
+.medium img {
   width: 20px;
   height: 20px;
   margin-left: 20px;
   margin-bottom: 5px;
 }
 
-.haut{display: flex;
-justify-content: space-between;
-align-items: center;
+.haut {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
@@ -124,58 +120,58 @@ align-items: center;
   min-width: 300px;
 }
 
-.menu a{
+.menu a {
   text-decoration: none;
   color: black;
   font-family: 'Montserrat', sans-serif;
 }
 
 
-.contact{
- text-align: center;
- padding-top: 20px;
+.contact {
+  text-align: center;
+  padding-top: 20px;
 
 }
 
-.formulaire{
+.formulaire {
   margin: auto;
 
 }
 
-.formtxt{
- 
+.formtxt {
+
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 10px;
   color: rgb(53, 51, 135);
 }
 
-input{
+input {
   color: rgb(53, 51, 135);
   padding-right: 80%;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 40px;
-margin-bottom: 10px;
-border-radius: 5px;
-border-color: #1DA1F2;
-
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-color: #1DA1F2;
+background-color: #ccc;
 
 }
 
-textarea{ 
+textarea {
   color: rgb(53, 51, 135);
   padding-right: 80%;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 40px;
-margin-bottom: 10px;
-border-radius: 5px;
-border-color: #1DA1F2;
-
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-color: #1DA1F2;
+  background-color: #ccc;
 }
 
 
-.envoyer a{
+.envoyer a {
   margin-bottom: 50px;
   color: rgb(255, 255, 255);
   font-family: 'Montserrat', sans-serif;
@@ -191,14 +187,14 @@ border-color: #1DA1F2;
 }
 
 
-.envoyer{
+.envoyer {
 
   display: flex;
   align-items: center;
   padding-top: 40px;
 }
 
-.formtxt{
+.formtxt {
   padding-right: 20%;
 }
 
@@ -208,27 +204,45 @@ border-color: #1DA1F2;
   display: flex;
 }
 
-.ad label{
+.ad label {
   min-width: 10%;
 }
 
-.ad{
+.ad {
   display: flex;
   align-items: center;
 }
 
 
-.envoyer img{
+.envoyer img {
   width: 20px;
 }
 
-.envoyer :hover{
+.envoyer :hover {
   background-color: #ba1d47;
 }
 
-.contenutxt{
+.contenutxt {
   display: flex;
-flex-direction: row;
+  flex-direction: row;
 
 }
 
+legend{
+  text-align: center;
+}
+
+fieldset{
+ padding-right: 70px;
+ padding-left: 50px ;
+
+border-color: #ba1d47;
+border-radius: 5px;
+
+
+
+}
+
+.ad ::placeholder {
+  color: rgb(255, 255, 255);
+}

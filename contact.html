@@ -50,85 +50,86 @@
 
     <!-- Formulaire -->
 
-    <div class="contact">
-      <h1> Nous contacter </h1>
-    </div>
-    <div class="formulaire">
 
 
-      <form>
-        <div class="formtxt">
+    <form>
+      <fieldset>
+        <legend>
+          <h1> Nous contacter </h1>
+        </legend>
+
+        <div class="formulaire">
 
 
-          <div class="ad prenom">
-            <label id="prenom"><strong> Prénom :</strong></label>
-            <input type="text"> <br><br>
+          <div class="formtxt">
+
+
+            <div class="ad prenom">
+              <label id="prenom"><strong> Prénom :</strong></label>
+              <input type="text"> <br><br>
+            </div>
+
+            <div class="ad nom">
+              <label><strong> Nom : </strong></label>
+              <input type="text"><br><br>
+            </div>
+
+
+            <div class="ad age">
+              <label><strong>Age : </strong></label>
+              <input type="text"> <br><br>
+            </div>
+
+
+            <div class="ad sexe">
+              <label><strong> Sexe : </strong></label>
+              <label> <input type="radio" value="oui" name="s"><strong> Femme</strong></label>
+              <label><input type="radio" value="non" name="s"><strong> Homme </strong></label><br><br>
+            </div>
+
+
+            <div class="ad email">
+              <label for="email"><strong>Email :</strong></label>
+              <input type="email" id="email" required><br><br>
+            </div>
+
+
+
+
+
+            <div class="ad tel">
+              <label for="adress2"><strong>Téléphone: </strong></label>
+
+              <input type="text" name="tel" id="tel" placeholder=" 06 78 55 40 23"><br><br>
+            </div>
+
+
+
+            <div class="ad ville">
+              <label for="adress2"><strong>Ville : </strong></label>
+
+              <input type="text" name="adress2" id="adress2" placeholder=" Valenciennes"><br><br>
+            </div>
+
+            <div class="ad message">
+              <label for="comments"><strong> Votre Message:</strong></label>
+              <textarea id="comments"></textarea>
+            </div>
+
           </div>
+          <div class="btnenvoi">
+            <div class="envoyer">
+              <a href="bouton"> Envoyer <img src="Ressources/icons8-avion-en-papier-50.png" alt=""> </a>
 
-          <div class="ad nom">
-            <label><strong> Nom : </strong></label>
-            <input type="text"><br><br>
+
+
+
+            </div>
           </div>
-
-
-          <div class="ad age">
-            <label><strong>Age : </strong></label>
-            <input type="text"> <br><br>
-          </div>
-
-
-          <div class="ad sexe">
-            <label><strong> Sexe : </strong></label>
-            <label> <input type="radio" value="oui" name="s"><strong> Femme</strong></label>
-            <label><input type="radio" value="non" name="s"><strong> Homme </strong></label><br><br>
-          </div>
-
-
-          <div class="ad email">
-            <label for="email"><strong>Email :</strong></label>
-            <input type="email" id="email" required><br><br>
-          </div>
-
-
-
-
-
-          <div class="ad tel">
-            <label for="adress2"><strong>Téléphone : </strong></label>
-
-            <input type="text" name="tel" id="tel" placeholder=" 06 78 55 40 23"><br><br>
-          </div>
-
-
-
-          <div class="ad ville">
-            <label for="adress2"><strong>Ville : </strong></label>
-
-            <input type="text" name="adress2" id="adress2" placeholder=" Valenciennes"><br><br>
-          </div>
-
-          <div class="ad message">
-            <label for="comments"><strong> Votre Message :</strong></label>
-            <textarea id="comments"></textarea>
-          </div>
-
         </div>
-        <div class="btnenvoi">
-          <div class="envoyer">
-            <a href="bouton"> Envoyer <img src="Ressources/icons8-avion-en-papier-50.png" alt=""> </a>
+      </fieldset>
+    </form>
 
-
-
-
-          </div>
-        </div>
-
-
-
-
-
-      </form>
-    </div>
 
 
 
@@ -149,7 +150,6 @@
           ut ornare vel, molestie eget libero. Vestibulum condimentum eu urna
           et tempor. Sed nec ligula ipsum.
         </p>
-
 
 
         <div class="bouton">
