@@ -12,23 +12,166 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="Ressources/contact.css" />
-    <link rel="stylesheet" href="Ressources/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Document</title>
   </head>
+
+  <!-- Menu -->
+
   <body>
-    <div class="navbar">
-      <div class="logo">
-        <img src="Ressources/logo.png" alt="Logo du blog de squedrong" />
+    <main>
+      <header>
+        <div class="haut">
+          <div class="logo">
+            <img src="logo.png" alt="logo" />
+          </div>
+
+          <div class="menu">
+            <a href="">Blog</a>
+            <a href="">CV</a>
+            <a href="">A Propos</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Formulaire -->
+
+      <form>
+        <fieldset>
+          <legend>
+            <h1>Nous contacter</h1>
+          </legend>
+
+          <div class="formulaire">
+            <div class="formtxt">
+              <div class="ad prenom">
+                <label id="prenom"><strong> Prénom :</strong></label>
+                <input type="text" /> <br /><br />
+              </div>
+
+              <div class="ad nom">
+                <label><strong> Nom : </strong></label>
+                <input type="text" /><br /><br />
+              </div>
+
+              <div class="ad age">
+                <label><strong>Age : </strong></label>
+                <input type="text" /> <br /><br />
+              </div>
+
+              <div class="ad sexe">
+                <label><strong> Sexe : </strong></label>
+                <label>
+                  <input type="radio" value="oui" name="s" /><strong>
+                    Femme</strong
+                  ></label
+                >
+                <label
+                  ><input type="radio" value="non" name="s" /><strong>
+                    Homme
+                  </strong></label
+                ><br /><br />
+              </div>
+
+              <div class="ad email">
+                <label for="email"><strong>Email :</strong></label>
+                <input type="email" id="email" required /><br /><br />
+              </div>
+
+              <div class="ad tel">
+                <label for="adress2"><strong>Téléphone: </strong></label>
+
+                <input
+                  type="text"
+                  name="tel"
+                  id="tel"
+                  placeholder=" 06 78 55 40 23"
+                /><br /><br />
+              </div>
+
+              <div class="ad ville">
+                <label for="adress2"><strong>Ville : </strong></label>
+
+                <input
+                  type="text"
+                  name="adress2"
+                  id="adress2"
+                  placeholder=" Valenciennes"
+                /><br /><br />
+              </div>
+
+              <div class="ad message">
+                <label for="comments"><strong> Votre Message:</strong></label>
+                <textarea id="comments"></textarea>
+              </div>
+            </div>
+            <div class="btnenvoi">
+              <div class="envoyer">
+                <a href="bouton">
+                  Envoyer
+                  <img src="Ressources/icons8-avion-en-papier-50.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+      <!-- réseaux  -->
+
+      <div class="reseaux">
+        <div class="texte">
+          <h1>Rejoins nous sur les réseaux !</h1>
+          <h2>Lorem ipsum</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            ultricies mi facilisis libero sollicitudin vulputate. Mauris
+            facilisis vestibulum nisi, at viverra arcu interdum id. In neque
+            lorem, vehicula ut ornare vel, molestie eget libero. Vestibulum
+            condimentum eu urna et tempor. Sed nec ligula ipsum.
+          </p>
+
+          <div class="bouton">
+            <div class="twitter">
+              <img src="Ressources/twitterlogo.png" alt="" /><a
+                href="https://twitter.com/"
+              >
+                TWITTER</a
+              >
+            </div>
+
+            <div class="Linkedin">
+              <img src="Ressources/Linkedinlogo.png" alt="" /><a
+                href="https://fr.linkedin.com/"
+              >
+                LINKEDIN
+              </a>
+            </div>
+
+            <div class="medium">
+              <img src="Ressources/icons8-logo-moyen-50.png" alt="" /><a
+                href="https://medium.com/"
+              >
+                MEDIUM
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="dessin">
+          <img src="Ressources/illustration.png" alt="" />
+        </div>
       </div>
-      <ul>
-        <li>BLOG</li>
-        <li>CV</li>
-        <li>A PROPOS</li>
-        <li>CONTACT</li>
-      </ul>
-    </div>
-    <div class="contact">
-      <h1>Bienvenue sur la page de contact de Squedrong</h1>
-    </div>
+    </main>
   </body>
+</html>
+
 </html>
